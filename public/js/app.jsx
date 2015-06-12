@@ -1,48 +1,48 @@
 var participants = [
     {
         Name:'Serhii',
-        Distance:'100',
-        Time:'14,4'
+        Distance:'100 meters',
+        Time:'14,4 seconds'
     } ,{
         Name:'Natalia',
-        Distance:'100',
-        Time:'16,5'
+        Distance:'100 meters',
+        Time:'16,5 seconds'
     } ,{
         Name:'James',
-        Distance:'60',
-        Time:'6'
+        Distance:'60 meters',
+        Time:'6 seconds'
     } ,{
         Name:'Tom',
-        Distance:'60',
-        Time:'7'
+        Distance:'60 meters',
+        Time:'7 seconds'
     } ,{
         Name:'Din',
-        Distance:'100',
-        Time:'13,5'
+        Distance:'100 meters',
+        Time:'13,5 seconds'
     } ,{
         Name:'Anton',
-        Distance:'1000',
-        Time:'240'
+        Distance:'1000 meters',
+        Time:'4 minutes'
     } ,{
         Name:'Marina',
-        Distance:'1000',
-        Time:'360'
+        Distance:'1000 meters',
+        Time:'6 minutes'
     } ,{
         Name:'Max',
-        Distance:'1000',
-        Time:'160'
+        Distance:'1000 meters',
+        Time:'3 minutes'
     } ,{
         Name:'Garry',
-        Distance:'100',
-        Time:'13'
+        Distance:'100 meters',
+        Time:'13 seconds'
     } ,{
         Name: 'Canny',
-        Distance: '1000',
-        Time: '86 400'
+        Distance: '150 kilometer',
+        Time: '24 hours'
     } ,{
         Name: 'Canny',
-        Distance: '100',
-        Time: '9,5'
+        Distance: '100 meters',
+        Time: '9,5 seconds'
     }
 ];
 
@@ -138,11 +138,11 @@ var GeneralView = React.createClass({
                             <input type="text" value={this.props.data.Name} onChange={this.onChangeInputName} className="form-control" />
                           </div>
                           <div className="form-group col-sm-4 col-md-4 col-xs-12">
-                            <label for="exampleInputEmail1">Distance (m)</label>
+                            <label for="exampleInputEmail1">Distance</label>
                             <input type="text" value={this.props.data.Distance} onChange={this.onChangeInputDistance} className="form-control" />
                             </div>
                           <div className="form-group col-sm-4 col-md-4 col-xs-12">
-                            <label for="exampleInputEmail1">Time (s)</label>
+                            <label for="exampleInputEmail1">Time</label>
                             <input type="text" value={this.props.data.Time} onChange={this.onChangeInputTime} className="form-control" />
                           </div>
                           <div className="form-group col-sm-12 col-md-12 col-xs-12">
@@ -207,8 +207,8 @@ var GeneralView = React.createClass({
                             <thead className="h3">
                                 <tr className="success">
                                     <td>Name</td>
-                                    <td>Distance (m)</td>
-                                    <td>Time (s)</td>
+                                    <td>Distance</td>
+                                    <td>Time</td>
                                 </tr>
                             </thead>
                             <tbody>
