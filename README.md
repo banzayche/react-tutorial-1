@@ -1,2 +1,5 @@
-# react-tutorial-1
-react-tutorial-1
+#React simple-react-app
+#npm install
+#bower install
+#run: grunt express
+#run: grunt

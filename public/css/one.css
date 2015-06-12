@@ -1,0 +1,30 @@
+form{
+	overflow: auto;
+}
+.ovf-a{
+	overflow: auto;
+}
+.participant_card{
+	padding: 20px;
+	border:1px solid black;
+	border-radius: 5px;
+	margin:10px 0;
+	background-color: rgba(245,245,245,.9); 
+}
+.constainer{
+	padding: 60px 0;
+}
+.serch-text{
+	font-size: 24px;
+	font-weight: 600;
+	color: rgb(255, 155, 0);
+}
+.card-text{
+	font-size: 24px;
+	font-weight: 600;
+	color: rgb(255, 155, 0);
+}
+.table tbody tr:hover{
+	background-color: rgba(240,240,240,.8);
+	cursor: pointer;
+}
